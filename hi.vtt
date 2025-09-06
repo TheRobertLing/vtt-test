@@ -1,7 +1,8 @@
 WEBVTT
 
 00:00:00.000 --> 00:00:05.000
-<ruby>你<rt>nǐ</rt></ruby> <ruby>好<rt>hǎo</rt></ruby>，<ruby>欢<rt>huān</rt></ruby><ruby>迎<rt>yíng</rt></ruby> <ruby>来<rt>lái</rt></ruby><ruby>到<rt>dào</rt></ruby>！<br/>Hello, welcome!
+<ruby>你<rt>nǐ</rt></ruby> <ruby>好<rt>hǎo</rt></ruby>，<ruby>欢<rt>huān</rt></ruby><ruby>迎<rt>yíng</rt></ruby> <ruby>来<rt>lái</rt></ruby><ruby>到<rt>dào</rt></ruby>
+Hello, welcome!
 
 00:00:05.500 --> 00:00:10.000
 <ruby>这<rt>zhè</rt></ruby> <ruby>是<rt>shì</rt></ruby> <ruby>一<rt>yī</rt></ruby><ruby>个<rt>gè</rt></ruby> <ruby>测<rt>cè</rt></ruby><ruby>试<rt>shì</rt></ruby>。<br/>This is a test.
@@ -31,4 +32,5 @@ Thank you for watching!
 00:00:37.500 --> 00:00:43.000
 <ruby>再<rt>zài</rt></ruby><ruby>见<rt>jiàn</rt></ruby>，<ruby>下<rt>xià</rt></ruby><ruby>次<rt>cì</rt></ruby> <ruby>再<rt>zài</rt></ruby> <ruby>见<rt>jiàn</rt></ruby>！
 Goodbye, see you next time!
+
 
