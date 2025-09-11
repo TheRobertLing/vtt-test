@@ -6,6 +6,7 @@ Hello, welcome!
 
 00:00:05.500 --> 00:00:10.000
 <ruby>这<rt>zhè</rt></ruby> <ruby>是<rt>shì</rt></ruby> <ruby>一<rt>yī</rt></ruby><ruby>个<rt>gè</rt></ruby> <ruby>测<rt>cè</rt></ruby><ruby>试<rt>shì</rt></ruby>。<br/>This is a test.
+&amp; &lt; &gt; These should be special symbols 
 
 00:00:10.500 --> 00:00:15.000
 <ruby>我<rt>wǒ</rt></ruby> <ruby>们<rt>men</rt></ruby> <ruby>正<rt>zhèng</rt></ruby><ruby>在<rt>zài</rt></ruby> <ruby>测<rt>cè</rt></ruby><ruby>试<rt>shì</rt></ruby> <ruby>字<rt>zì</rt></ruby><ruby>幕<rt>mù</rt></ruby>。
@@ -32,5 +33,6 @@ Thank you for watching!
 00:00:37.500 --> 00:00:43.000
 <ruby>再<rt>zài</rt></ruby><ruby>见<rt>jiàn</rt></ruby>，<ruby>下<rt>xià</rt></ruby><ruby>次<rt>cì</rt></ruby> <ruby>再<rt>zài</rt></ruby> <ruby>见<rt>jiàn</rt></ruby>！
 Goodbye, see you next time!
+
 
 
