@@ -1,4 +1,4 @@
-WEBVTT test test test this is just a simple header test hihihi
+WEBVTT test test test this is just a simple header test hihihi -->
 
 NOTE this is a note block
 this is also part of the note block
@@ -100,6 +100,7 @@ Thank you for watching!
 00:00:37.500 --> 00:00:43.000
 <ruby>再<rt>zài</rt></ruby><ruby>见<rt>jiàn</rt></ruby>，<ruby>下<rt>xià</rt></ruby><ruby>次<rt>cì</rt></ruby> <ruby>再<rt>zài</rt></ruby> <ruby>见<rt>jiàn</rt></ruby>！
 Goodbye, see you next time!
+
 
 
 
