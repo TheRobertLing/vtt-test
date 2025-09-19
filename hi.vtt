@@ -31,23 +31,58 @@ STYLE
 ::cue(lang) {
   color: yellow;
 }
+::cue([lang="en-US"]) {
+color: yellow;
+}
+::cue(lang[lang="en-GB"]) {
+color: cyan;
+}
+::cue(v[voice="Salame"]) {
+color: lime;
+}
 
+STYLE
+::cue(:lang(en)) {
+  color: yellow;
+}
+::cue(:lang(en-GB)) {
+  color: cyan;
+}
+::cue(#transcription\ credits) {
+  color: red;
+}
+::cue(#cue1) {
+  color: red;
+}
+
+1
 00:00:00.000 --> 00:00:05.000
 <ruby>你<rt>nǐ</rt></ruby> <ruby>好<rt>hǎo</rt></ruby>，<ruby>欢<rt>huān</rt></ruby><ruby>迎<rt>yíng</rt></ruby> <ruby>来<rt>lái</rt></ruby><ruby>到<rt>dào</rt></ruby>
 Hello, welcome!
+<lang en-GB>Cyan!</lang>
 
-00:00:05.500 --> 00:00:10.000
+2
+00:00:05.500 --> 00:00:10.000 line:63% position:72% align:start
 <ruby>这<rt>zhè</rt></ruby> <ruby>是<rt>shì</rt></ruby> <ruby>一<rt>yī</rt></ruby><ruby>个<rt>gè</rt></ruby> <ruby>测<rt>cè</rt></ruby><ruby>试<rt>shì</rt></ruby>。<br/>This is a test.
 &amp; &lt; &gt; These should be special symbols 
 
+transcription credits
 00:00:10.500 --> 00:00:15.000
 <ruby>我<rt>wǒ</rt></ruby> <ruby>们<rt>men</rt></ruby> <ruby>正<rt>zhèng</rt></ruby><ruby>在<rt>zài</rt></ruby> <ruby>测<rt>cè</rt></ruby><ruby>试<rt>shì</rt></ruby> <ruby>字<rt>zì</rt></ruby><ruby>幕<rt>mù</rt></ruby>。
 
 00:00:10.500 --> 00:00:15.000
 We are testing subtitles.
 
-00:00:15.500 --> 00:00:20.000
+00:00:15.500 --> 00:00:20.000 position:10%,line-left align:left size:31%
 <ruby>包<rt>bāo</rt></ruby><ruby>含<rt>hán</rt></ruby> <ruby>拼<rt>pīn</rt></ruby><ruby>音<rt>yīn</rt></ruby> <ruby>注<rt>zhù</rt></ruby><ruby>释<rt>shì</rt></ruby> 的 <ruby>字<rt>zì</rt></ruby><ruby>幕<rt>mù</rt></ruby>。
+<c.myclass>Yellow!</c>
+<i.myclass>Yellow!</i>
+<u.myclass>Yellow!</u>
+<b.myclass>Yellow!</b>
+<u.myclass>Yellow!</u>
+<ruby.myclass>Yellow! <rt.myclass>Yellow!</rt></ruby>
+<v.myclass Kathryn>Yellow!</v>
+<lang.myclass en>Yellow!</lang>
 Subtitles with pinyin annotations.
 
 00:00:20.500 --> 00:00:26.000
@@ -65,6 +100,7 @@ Thank you for watching!
 00:00:37.500 --> 00:00:43.000
 <ruby>再<rt>zài</rt></ruby><ruby>见<rt>jiàn</rt></ruby>，<ruby>下<rt>xià</rt></ruby><ruby>次<rt>cì</rt></ruby> <ruby>再<rt>zài</rt></ruby> <ruby>见<rt>jiàn</rt></ruby>！
 Goodbye, see you next time!
+
 
 
 
