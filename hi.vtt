@@ -1,4 +1,36 @@
-WEBVTT
+WEBVTT test test test this is just a simple header test hihihi
+
+NOTE this is a note block
+this is also part of the note block
+we are all note blocks
+
+STYLE
+::cue {
+  background-image: linear-gradient(to bottom, dimgray, lightgray);
+  color: papayawhip;
+}
+/* Style blocks cannot use blank lines nor "dash dash greater than" */
+
+NOTE comment blocks can be used between style blocks.
+
+STYLE
+::cue(b) {
+  color: peachpuff;
+}
+
+STYLE
+::cue(c),
+::cue(i),
+::cue(b),
+::cue(u),
+::cue(ruby),
+::cue(rt),
+::cue(v) {
+  color: red;
+}
+::cue(lang) {
+  color: yellow;
+}
 
 00:00:00.000 --> 00:00:05.000
 <ruby>你<rt>nǐ</rt></ruby> <ruby>好<rt>hǎo</rt></ruby>，<ruby>欢<rt>huān</rt></ruby><ruby>迎<rt>yíng</rt></ruby> <ruby>来<rt>lái</rt></ruby><ruby>到<rt>dào</rt></ruby>
@@ -33,6 +65,7 @@ Thank you for watching!
 00:00:37.500 --> 00:00:43.000
 <ruby>再<rt>zài</rt></ruby><ruby>见<rt>jiàn</rt></ruby>，<ruby>下<rt>xià</rt></ruby><ruby>次<rt>cì</rt></ruby> <ruby>再<rt>zài</rt></ruby> <ruby>见<rt>jiàn</rt></ruby>！
 Goodbye, see you next time!
+
 
 
 
